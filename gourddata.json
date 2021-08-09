@@ -1,0 +1,60 @@
+{
+    "easyquests": [
+        {
+            "name": "easy1",
+            "desc": "questdesc1",
+            "points": 2
+        },
+        {
+            "name": "easy2",
+            "desc": "questdesc2",
+            "points": 2
+        },
+        {
+            "name": "easy3",
+            "desc": "questdesc6",
+            "points": 2
+        }
+    ],
+    "medquests": [
+        {
+            "name": "med1",
+            "desc": "questdesc3",
+            "points": 5
+        },
+        {
+            "name": "med2",
+            "desc": "questdesc4",
+            "points": 5
+        },
+        {
+            "name": "med3",
+            "desc": "questdesc4",
+            "points": 5
+        }
+    ],
+    "hardquests": [
+        {
+            "name": "hard1",
+            "desc": "questdesc5",
+            "points": 10
+        },
+        {
+            "name": "hard2",
+            "desc": "questdesc6",
+            "points": 10
+        },
+        {
+            "name": "hard3",
+            "desc": "questdesc6",
+            "points": 10
+        }
+    ],
+    "sabotages": [
+        {
+            "name":"sab1",
+            "desc":"sabdesc1",
+            "points":5
+        }
+    ]
+}
