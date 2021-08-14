@@ -2,13 +2,14 @@ import json
 import random
 from copy import deepcopy
 
+
 class Player:
     easyquestpool = []
     medquestpool = []
     hardquestpool = []
+    sabotagepool = {}
     activequests = {}
-    sabotages = []
-    isGhost = False
+    sabotages = {}
     def __init__(self, name):
         self.name = name
         self.points = 0
@@ -22,18 +23,10 @@ class Player:
         
         return result
     
-    def eliminate(self):
-        self.isGhost = True
-        self.quests = []
-        self.sabotages = []
-    
+
     def assignnewquests(self):
-        random.shuffle(self.easyquestpool)
-        random.shuffle(self.medquestpool)
-        random.shuffle(self.hardquestpool)
-        self.activequests['easy'] = self.easyquestpool.pop()
-        self.activequests['med'] = self.medquestpool.pop()
-        self.activequests['hard'] = self.hardquestpool.pop()
+
+        
         print("hehehehe", self.activequests)
 
     def completequest(self, questindex, success):
@@ -78,6 +71,7 @@ class Game:
         if discordid in self.players:
             #player already added
             return 'You are already in the game!'
+        
         self.players[discordid] = Player(nick)
         return 'You are now in the game!'
     
@@ -97,16 +91,21 @@ class Game:
 
         
         for player in self.players:
-            self.players[player].easyquestpool = deepcopy(gourddata['easyquests'])
-            self.players[player].medquestpool = deepcopy(gourddata['medquests'])
-            self.players[player].hardquestpool = deepcopy(gourddata['hardquests'])
-        
-        self.startRound()
+            print(player)
+            print(gourddata['sabotages'])
+            self.players[player].easyquestpool.extend(gourddata['easyquests'])
+            self.players[player].medquestpool.extend(gourddata['medquests'])
+            self.players[player].hardquestpool.extend(gourddata['hardquests'])
+            self.players[player].sabotagepool = deepcopy(gourddata['sabotages'])
+            self.players[player].activequests['easy'] = self.players[player].easyquestpool.pop(random.randint(0, len(self.players[player].easyquestpool)-1))
+            self.players[player].activequests['med'] = self.players[player].medquestpool.pop(random.randint(0, len(self.players[player].medquestpool)-1))
+            self.players[player].activequests['hard'] = self.players[player].hardquestpool.pop(random.randint(0, len(self.players[player].hardquestpool)-1))
+            print(self.players[player].activequests)
+            print(self.players[player].sabotagepool)
+            #self.players[player].assignnewquests()
+        #self.startRound()
         return f'game has started with {len(self.players)} players playing. Check your quests now!'
 
-    def startRound(self):
-        for player in self.players:
-            self.players[player].assignnewquests()
-    def endRound(self):
+    def nextRound(self):
         pass
 

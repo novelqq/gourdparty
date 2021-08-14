@@ -1,60 +1,361 @@
 {
     "easyquests": [
         {
-            "name": "easy1",
-            "desc": "questdesc1",
-            "points": 2
+            "name": "Loremaster",
+            "desc": "Final post must include at least 500 words of lore.",
+            "points": 1
         },
         {
-            "name": "easy2",
-            "desc": "questdesc2",
-            "points": 2
+            "name": "A New Low",
+            "desc": "Furry build (anthropomorphic).",
+            "points": 1
         },
         {
-            "name": "easy3",
-            "desc": "questdesc6",
-            "points": 2
+            "name": "Ooh, Shiny!",
+            "desc": "Use at least one glitter/opal color.",
+            "points": 1
+        },
+        {
+            "name": "Nocturnal",
+            "desc": "Build must glow in the dark in some way. Dark-environment alt shot must be provided.",
+            "points": 1
+        },
+        {
+            "name": "Shoot Your Shot",
+            "desc": "Build must include several functional projectile(s).",
+            "points": 1
+        },
+        {
+            "name": "Sticky Situation",
+            "desc": "Build must visibly incorporate at least 8 official LEGO stickers (whether or not they’re applied to the intended parts is irrelevant).",
+            "points": 1
+        },
+        {
+            "name": "Originality is Dead",
+            "desc": "Build must use a color scheme from an official non-Toa, non-Glatorian Bionicle set.",
+            "points": 1
+        },
+        {
+            "name": "It’s Not a Phase, Mom",
+            "desc": "Build must include booba or subtle phallic imagery.",
+            "points": 1
+        },
+        {
+            "name": "Reject Humanity",
+            "desc": "Build must be non-humanoid.",
+            "points": 1
+        },
+        {
+            "name": "Star-Studded",
+            "desc": "Build must visibly incorporate at least 1 part whose dimensions are 4x8 studs or greater.",
+            "points": 1
+        },
+        {
+            "name": "I Rebel",
+            "desc": "Build must provide ham-fisted social commentary with an explanation in the description of 50 words or more.",
+            "points": 1
+        },
+        {
+            "name": "The Flex Tape Challenge",
+            "desc": "At least 1 significant part of the build must be held together solely with tape.",
+            "points": 1
+        },
+        {
+            "name": "Kaleidoscope",
+            "desc": "Build must include at least 8 colors.",
+            "points": 1
+        },
+        {
+            "name": "Read the Rules",
+            "desc": "Build must be no shorter than Whenua Metru and no taller than Iruini. Final or alt shot must include size comparison.",
+            "points": 1
+        },
+        {
+            "name": "Squash and Stretch",
+            "desc": "Build must include at least 5 rubber or partially-rubber elements (no easy tires, you know what i mean)",
+            "points": 1
+        },
+        {
+            "name": "Compelling Caper",
+            "desc": "Build must include at least 5 cloth elements.",
+            "points": 1
         }
     ],
     "medquests": [
         {
-            "name": "med1",
-            "desc": "questdesc3",
-            "points": 5
+            "name": "Young Flexer",
+            "desc": "Build must include 5 or more 01-03 Kanohi masks.",
+            "points": 2
         },
         {
-            "name": "med2",
-            "desc": "questdesc4",
-            "points": 5
+            "name": "The Forbidden Fruit",
+            "desc": "Build must include 5 or more gummies.",
+            "points": 2
         },
         {
-            "name": "med3",
-            "desc": "questdesc4",
-            "points": 5
+            "name": "Crossing Over",
+            "desc": "Build must be part of a System diorama.",
+            "points": 2
+        },
+        {
+            "name": "The Rainbow Gamble",
+            "desc": "Build must visibly incorporate at least 1 color that is absent from all other contestants’ builds that round (no just putting one piece of every color on your build, jackass).",
+            "points": 2
+        },
+        {
+            "name": "Powered Up",
+            "desc": "Build must incorporate a motor or gear play function.",
+            "points": 2
+        },
+        {
+            "name": "Watertight",
+            "desc": "Build must really float (provide evidence).",
+            "points": 2
+        },
+        {
+            "name": "Battle Scars",
+            "desc": "Build must visibly incorporate at least 5 broken, damaged, poorly painted, or otherwise marred pieces.",
+            "points": 2
+        },
+        {
+            "name": "The Uncanny Valley",
+            "desc": "Build must visibly incorporate at least 1 Star Wars CCBS head.",
+            "points": 2
+        },
+        {
+            "name": "A Small Loan",
+            "desc": "Build’s total parts must be worth at least $50 USD on BrickLink.",
+            "points": 2
+        },
+        {
+            "name": "Dual Degree",
+            "desc": "Build must consist of 2 or more fully-realized characters (no mini-scale figures).",
+            "points": 2
+        },
+        {
+            "name": "Mad Macks",
+            "desc": "Build must consist of a rider and a vehicle.",
+            "points": 2
+        },
+        {
+            "name": "Particular Taste",
+            "desc": "Build cannot mix G1 and CCBS parts. Choose one or the other, System and Technic are allowed in either case.",
+            "points": 2
+        },
+        {
+            "name": "The Grand Army of Gourd",
+            "desc": "Build must visibly incorporate at least one clone trooper minifigure (can be separated).",
+            "points": 2
+        },
+        {
+            "name": "Assimilation",
+            "desc": "Build must use every piece from at least 1 Bionicle set, excluding McToran.",
+            "points": 2
+        },
+        {
+            "name": "Looking Kinda Sus",
+            "desc": "Amogus of some kind must be present on build.",
+            "points": 2
+        },
+        {
+            "name": "I was framed",
+            "desc": "Build must have complete inner frame, with all exterior armor removable.",
+            "points": 2
         }
     ],
     "hardquests": [
         {
-            "name": "hard1",
-            "desc": "questdesc5",
-            "points": 10
+            "name": "Money’s Tight",
+            "desc": "Build must use less than 200 parts. Part count must be reviewed by judge via exploded photograph.",
+            "points": 3
         },
         {
-            "name": "hard2",
-            "desc": "questdesc6",
-            "points": 10
+            "name": "The Supreme Unique",
+            "desc": "Build cannot use any colors used in your last posted build. Black, white, and gray are included, but exceptions are made for pins, axles, and single ball joints.",
+            "points": 3
         },
         {
-            "name": "hard3",
-            "desc": "questdesc6",
-            "points": 10
+            "name": "Packin",
+            "desc": "Build must use the entire contents of one Dots pack.",
+            "points": 3
+        },
+        {
+            "name": "The Purist Nightmare",
+            "desc": "Build must visibly incorporate substantial non-LEGO-compatible elements (i.e. other toys, household items)",
+            "points": 3
+        },
+        {
+            "name": "Imba, Imba!",
+            "desc": "No part of your build may be symmetrical along the vertical axis.",
+            "points": 3
+        },
+        {
+            "name": "A Little Rusty",
+            "desc": "You’re in Iron Builder now. Pick a seed part from one of the IB runs and use as many of it as you can on your build. Judge determines completion of quest; any color of the seed part is allowed.",
+            "points": 3
+        },
+        {
+            "name": "New Frontiers",
+            "desc": "Build must use at least one color you’ve never used on a published build before.",
+            "points": 3
+        },
+        {
+            "name": "Chameleon",
+            "desc": "Build cannot use any colors used in your last posted build. Black, white, and gray are included, but exceptions are made for pins, axles, and single ball joints.",
+            "points": 3
+        },
+        {
+            "name": "Old-School",
+            "desc": " Build cannot use any parts released after 2003 (excluding parts added as a result of sabotage).",
+            "points": 3
+        },
+        {
+            "name": "Gourdbots, Roll Out",
+            "desc": "Build must transform. Judge determines completion of quest based on coolness.",
+            "points": 3
+        },
+        {
+            "name": "Tiptoe",
+            "desc": "Build must contact the ground on no more than 4 studs’ total area. No stands allowed.",
+            "points": 3
+        },
+        {
+            "name": "SHIP It",
+            "desc": "A portion of your build must be 100 studs or longer.",
+            "points": 3
         }
     ],
-    "sabotages": [
-        {
-            "name":"sab1",
-            "desc":"sabdesc1",
-            "points":5
+    "sabotages": {
+        "sab1": {
+            "name": "Paparazzi",
+            "desc":"Forced to show your WIP to other competitors.",
+            "cost":2
+        },
+        "sab2": {
+            "name":"Mirror, Mirror...",
+            "desc":"Entry image must be reflected across vertical axis.",
+            "cost":2
+        },
+        "sab3": {
+            "name": "Meet The New Guy",
+            "desc":"Forced to use a part (single strange, hard-to-use part).",
+            "cost":2
+        },
+        "sab4": {
+            "name": "Full Disclosure",
+            "desc":"Back of moc cannot be left unfinished (back shot required, no editing out stands).",
+            "cost":2
+        },
+        "sab5": {
+            "name": "Creative Liberties",
+            "desc":"Opponent names + writes description of your MOC (within reason).",
+            "cost":2
+        },
+        "sab6": {
+            "name": "Traditional Roots",
+            "desc":"Build must incorporate a 2x4 brick.",
+            "cost":2
+        },
+        "sab7": {
+            "name": "Ink Blotting",
+            "desc":"Final photo must incorporate watermark of the saboteur’s choosing (within reason).",
+            "cost":2
+        },
+        "sab8": {
+            "name": "The Editor",
+            "desc":"Contestant must post their build in their WIP channel and remove whatever small element/concept the spectators choose (it cannot be re-incorporated).",
+            "cost":2
+        },
+        "sab9": {
+            "name": "Whoops!",
+            "desc":"Stress test video required.",
+            "cost":4
+        },
+        "sab10": {
+            "name": "Help, I’ve Fallen",
+            "desc":"Entry image must be upside-down.",
+            "cost":4
+        },
+        "sab11": {
+            "name": "Colorblind",
+            "desc":"Ban a color on a contestants build.",
+            "cost":4
+        },
+        "sab12": {
+            "name": "Strong Suggestion",
+            "desc":"Forced to introduce certain concept/component into build.",
+            "cost":4
+        },
+        "sab18": {
+            "name": "Honey, I Shrunk The Build",
+            "desc":"Increase/decrease the size of a contestant’s build.",
+            "cost":4
+        },
+        "sab19": {
+            "name": "Judge In Training",
+            "desc":"Modify or add a condition to the theme (within reason).",
+            "cost":4
+        },
+        "sab20": {
+            "name": "The Hourglass",
+            "desc":"Decrease player’s build time by 1 hour (no specific targeting allowed).",
+            "cost":4
+        },
+        "sab21": {
+            "name": "Flying Blind",
+            "desc":"Build in the dark for 30 minutes (you must keep the portions you build).",
+            "cost":4
+        },
+        "sab22": {
+            "name": "The Ol’ Switcheroo",
+            "desc":"Switch 2 parts of your build and keep them that way (i.e. switching arms and legs).",
+            "cost":4
+        },
+        "sab23": {
+            "name": "Character Creation",
+            "desc":"Build cannot be posed dynamically (must be standing still or t-posing).",
+            "cost":4
+        },
+        "sab24": {
+            "name": "Identity Theft",
+            "desc":"Two contestants must swap their build concepts for the rest of the round (8pts to make 2 random people swap, 16pts to make 2 specific people swap).",
+            "cost":8
+        },
+        "sab25": {
+            "name": "Natural Selection",
+            "desc":"Forced to not use a part (or type of part).",
+            "cost":4
+        },
+        "sab26": {
+            "name": "Blacklisting",
+            "desc":"Contestant must take all of a specified non-functional part off their build (excluding parts mandated by other sabotages). They cannot add any more for the remainder of the round.",
+            "cost":2
+        },
+        "sab27": {
+            "name": "True Jedi",
+            "desc":"Contestant must plug all open Technic pinholes on their build with studs.",
+            "cost":2
+        },
+        "sab28": {
+            "name": "Some Disassembly Required",
+            "desc":"Build must visibly incorporate a brick separator.",
+            "cost":2
+        },
+        "sab29": {
+            "name": "Turn Back Time",
+            "desc":"Contestant must disassemble a part of their build and sort all its parts back into their organizing system. They cannot take pictures of its construction and cannot rebuild it for 15 minutes.",
+            "cost":2
+        },
+        "sab31": {
+            "name": "Mixing Paints",
+            "desc":"Forced to introduce a certain color into build.",
+            "cost":2
+        },
+        "sab32": {
+            "name": "Gundam Syndrome",
+            "desc":"Final build photo must be pelvic-thrusting",
+            "cost":2
         }
-    ]
+        
+    }
 }
