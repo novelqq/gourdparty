@@ -15,7 +15,7 @@ from pymongo import MongoClient
 from pymongo import ReturnDocument
 
 from discord_webhook import DiscordWebhook
-client = MongoClient("mongodb+srv://dbuser:_HhbH7i*WA!2nSx@cluster0.9xxar.mongodb.net/gourdparty?retryWrites=true&w=majority")
+client = MongoClient("PRIVATE_KEY")
 db = client.gourdparty
 
 judgeid = '874559171759071263'
